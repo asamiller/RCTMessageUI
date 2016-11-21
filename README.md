@@ -3,25 +3,8 @@
 React native bridge to MessageUI.framework
 
 ## Installation
-
-Until we add this to an official npm package use the following in your `package.json` file add as a dependency:
-```
-{
-  "name": "YourApplication",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start"
-  },
-  "dependencies": {
-    "react": "15.0.2",
-    "react-native": "0.26.x",
-    "RCTMessageUI": "git+ssh://git@github.com:ModusCreateOrg/RCTMessageUI.git"
-  }
-}
-```
-
-$npm install
+Install via npm :
+`npm install RCTMessageUI`
 
 Now you need to link the native library to your current project, you can do that manually
 by placing the .a lib into your project but we recommend you to use `rnpm` because it will
