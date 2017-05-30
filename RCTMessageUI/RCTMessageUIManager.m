@@ -7,12 +7,12 @@
 //
 
 #import "RCTMessageUIManager.h"
-#import "RCTConvert.h"
-#import "RCTLog.h"
-#import "RCTUtils.h"
-#import "RCTBridge.h"
-#import "RCTUIManager.h"
-#import "RCTEventDispatcher.h"
+#import <React/RCTConvert.h>
+#import <React/RCTLog.h>
+#import <React/RCTUtils.h>
+#import <React/RCTBridgeModule.h>
+#import <React/RCTUIManager.h>
+#import <React/RCTEventDispatcher.h>
 @import MessageUI;
 
 static NSString *const RCTMessageUIManagerErrorDomain = @"RCTMessageUIManagerErrorDomain";
