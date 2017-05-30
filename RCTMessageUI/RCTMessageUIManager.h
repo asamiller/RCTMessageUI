@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RCTBridge.h"
+#import <React/RCTBridgeModule.h>
 
 @interface RCTMessageUIManager : NSObject<RCTBridgeModule>
 
