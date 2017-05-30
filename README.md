@@ -1,4 +1,4 @@
-##RCTMessageUI
+## RCTMessageUI
 
 React native bridge to MessageUI.framework
 
@@ -20,7 +20,7 @@ $rnpm link
 
 rnpm link will link all dependencies automatically but you will still need to re-build the native app
 
-###Usage
+### Usage
 !!! important: it will not work in the iOS Simulator, works only on real device
 
 
